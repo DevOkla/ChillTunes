@@ -1,0 +1,43 @@
+//Global styles
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3 {
+  color: rgb(54, 54, 54);
+}
+body {
+  font-family: "Lato", sans-serif;
+}
+h3,
+h4 {
+  font-weight: 400;
+  color: rgb(112, 112, 112);
+}
+.App {
+  background-size: cover;
+  min-height: 100vh;
+  background-position: center;
+}
+.library-active {
+  padding-right: 30%;
+}
+@media screen and (max-width: 750px) {
+  html {
+    font-size: 70%;
+  }
+}
+@media screen and (max-width: 500px) {
+  html {
+    font-size: 55%;
+  }
+}
+//Imports
+@import "./player";
+@import "./song";
+@import "./library";
+@import "./nav";

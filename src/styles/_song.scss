@@ -1,0 +1,25 @@
+.song-container {
+  color: #fff;
+  text-shadow: 1px 1px 20px #fff, -3px 1px 20px #fff, 3px 1px 20px #fff;
+  background: rgba(0, 0, 0, 0.76);
+
+  padding: 2rem 10rem;
+  margin: 40vh auto 1rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.song-info {
+  transition: all 0.5s ease;
+  h2 {
+    font-size: 2.3rem;
+    padding: 1rem 1rem 2rem 1rem;
+    color: rgb(0, 0, 0);
+  }
+  h3 {
+    font-size: 1.6rem;
+    color: rgb(2, 1, 1);
+    text-align: center;
+  }
+}

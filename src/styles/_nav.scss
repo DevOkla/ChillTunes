@@ -1,0 +1,44 @@
+nav {
+  min-height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  h1 {
+    color: rgb(8, 8, 8);
+    border-radius: 15px;
+    text-shadow: -3px 1px 5px rgb(244, 244, 244), 3px 1px 5px rgb(244, 244, 244),
+      1px 1px 20px rgb(253, 232, 232), -20px 1px 20px rgb(255, 255, 255),
+      20px 1px 25px rgb(237, 235, 235), 1px 1px 45px rgb(237, 235, 235),
+      1px 1px 55px rgb(237, 235, 235);
+
+    justify-self: center;
+    padding: 2rem;
+    font-family: "Dancing Script", cursive;
+    font-size: 2.4rem;
+    letter-spacing: 5px;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  button {
+    background: transparent;
+    display: flex;
+    gap: 3px;
+    cursor: pointer;
+    border: 2px solid #ccc;
+    background-color: rgba(204, 221, 236, 0.651);
+    border-radius: 5px;
+    margin: 0 2rem;
+    font-size: 1.9rem;
+    border-radius: 8px;
+    padding: 1rem 1.3rem;
+    transition: all 0.3s ease;
+    &:hover {
+      background: rgb(65, 65, 65);
+      color: white;
+      border: 1px solid white;
+    }
+  }
+}
